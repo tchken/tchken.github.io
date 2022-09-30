@@ -9,11 +9,13 @@ website:
     left:
       - text: Home
         href: index.qmd
+      - text: Blog
+        href: blog.html
       - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: [sandstone, theme.scss]
     css: styles.css
     toc: true
 
