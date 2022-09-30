@@ -4,7 +4,7 @@ project:
 
 website:
   title: "All U Need"
-  site-url: https://tchken.github.io
+  site-url: https://tchk.com
   navbar:
     left:
       - text: Home
@@ -19,5 +19,8 @@ format:
     css: styles.css
     toc: true
 
+collections:
+    posts:
+        authors_metadata: false
 
 
