@@ -1,6 +1,8 @@
 [
   {
     "listing": "/blog.html",
-    "items": []
+    "items": [
+      "/posts/2022-09-30-test/test.html"
+    ]
   }
 ]

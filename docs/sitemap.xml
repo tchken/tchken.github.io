@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tchk.com/index.html</loc>
-    <lastmod>2022-09-30T04:54:39.129Z</lastmod>
+    <loc>https://tchken.github.io/posts/2022-09-30-test/test.html</loc>
+    <lastmod>2022-09-30T06:00:53.071Z</lastmod>
   </url>
   <url>
-    <loc>https://tchk.com/about.html</loc>
-    <lastmod>2022-09-30T04:54:39.417Z</lastmod>
+    <loc>https://tchken.github.io/index.html</loc>
+    <lastmod>2022-09-30T06:00:53.348Z</lastmod>
   </url>
   <url>
-    <loc>https://tchk.com/blog.html</loc>
-    <lastmod>2022-09-30T04:54:39.711Z</lastmod>
+    <loc>https://tchken.github.io/about.html</loc>
+    <lastmod>2022-09-30T06:00:53.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tchken.github.io/blog.html</loc>
+    <lastmod>2022-09-30T06:00:54.012Z</lastmod>
   </url>
 </urlset>
