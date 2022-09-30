@@ -4,18 +4,20 @@ project:
 
 website:
   title: "All U Need"
-  site-url: https://tchk.com
+  site-url: https://tchken.github.io
+  description: "This is All YOU Need"
   navbar:
     left:
       - text: Home
         href: index.qmd
       - text: Blog
         href: blog.html
+    right:
       - about.qmd
 
 format:
   html:
-    theme: [sandstone, theme.scss]
+    theme: [yeti, theme.scss]
     css: styles.css
     toc: true
 

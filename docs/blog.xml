@@ -6,10 +6,29 @@
       version="2.0">
 <channel>
 <title>All U Need</title>
-<link>https://tchk.com/blog.html</link>
-<atom:link href="https://tchk.com/blog.xml" rel="self" type="application/rss+xml"/>
-<description></description>
+<link>https://tchken.github.io/blog.html</link>
+<atom:link href="https://tchken.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>This is All YOU Need</description>
 <generator>quarto-1.1.189</generator>
-<lastBuildDate>Fri, 30 Sep 2022 04:54:39 GMT</lastBuildDate>
+<lastBuildDate>Fri, 30 Sep 2022 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Test test test</title>
+  <dc:creator>tchken</dc:creator>
+  <link>https://tchken.github.io/posts/2022-09-30-test/test.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>test the blog</p>
+
+
+
+ ]]></description>
+  <category>ML</category>
+  <category>Python</category>
+  <guid>https://tchken.github.io/posts/2022-09-30-test/test.html</guid>
+  <pubDate>Fri, 30 Sep 2022 04:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>

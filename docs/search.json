@@ -1,16 +1,23 @@
 [
   {
+    "objectID": "posts/2022-09-30-test/test.html",
+    "href": "posts/2022-09-30-test/test.html",
+    "title": "Test test test",
+    "section": "",
+    "text": "test the blog"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Education\nUniversity of California, Berkeley | Berkeley, CA\nM.S. in Information and Data Science\nColumbia Univeristy in the City of New York | New York, NY\nM.A in Mathematics"
+    "text": "Machine Learning\nNatural Language Processing\nComputer Vision\nData Engineering \n\nUniversity of California, Berkeley | Berkeley, CA\nM.S. in Information and Data Science\nColumbia Univeristy in the City of New York | New York, NY\nM.A in Mathematics"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "All U Need",
     "section": "",
-    "text": "No matching items"
+    "text": "ML\n\n\nPython\n\n\n\n\ntest test test\n\n\n\n\n\n\nSep 30, 2022\n\n\ntchken\n\n\n\n\n\n\nNo matching items"
   }
 ]
