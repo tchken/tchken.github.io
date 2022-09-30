@@ -1,1 +1,1 @@
-Sitemap: https://tchken.github.io/sitemap.xml
+Sitemap: https://tchk.com/sitemap.xml

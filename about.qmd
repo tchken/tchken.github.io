@@ -1,5 +1,36 @@
 ---
 title: "About"
+image: "img/avatar_tchk.jpg"
+about:
+  template: solana
+  links:
+    - text: LinkedIn
+      url: "https://linkedin.com/in/"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/"
+    - text: Blog
+      url: "blog.html"
+comments: false
 ---
 
-About this site
+### tchken
+
+<br>
+Machine Learning\
+Natural Language Processing\
+Computer Vision\
+Data Engineering
+<br>
+
+### Education
+
+**University of California, Berkeley** | Berkeley, CA
+
+M.S. in Information and Data Science
+
+**Columbia Univeristy in the City of New York** | New York, NY
+
+M.A in Mathematics
+
+
