@@ -1,0 +1,67 @@
+---
+import { siteConfig } from "../config";
+---
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-left">
+        <h2 class="heading">About Me</h2>
+      </div>
+      <div class="col-right">
+        <p>{siteConfig.aboutMe}</p>
+        <div class="skills-row">
+          {siteConfig.skills.map((skill) => (
+            <span class="skill-tag">{skill}</span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #about {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    background: #fff;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .col-left {
+    flex: 0 0 250px;
+  }
+
+  .col-right {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .col-right p {
+    color: #74808a;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: 0 0 15px 0;
+  }
+
+  .skills-row {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .col-left {
+      flex: 0 0 100%;
+    }
+  }
+</style>

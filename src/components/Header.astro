@@ -1,0 +1,134 @@
+---
+import { siteConfig } from "../config";
+
+const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+---
+
+<header id="header">
+  <div id="mobile-menu-close">
+    <span>Close</span> ✕
+  </div>
+  <ul id="menu" class="shadow">
+    <li><a href="#about">About</a></li>
+    {hasProjects && <li><a href="#projects">Projects</a></li>}
+    {hasExperience && <li><a href="#experience">Experience</a></li>}
+    {hasEducation && <li><a href="#education">Education</a></li>}
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</header>
+
+<style>
+  @keyframes dropHeader {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+    animation: dropHeader 0.75s ease 1;
+  }
+
+  header ul {
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    list-style: none;
+  }
+
+  header li {
+    display: inline-block;
+  }
+
+  header a {
+    display: block;
+    color: #3498db;
+    padding: 10px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  header a:hover {
+    color: #217dbb;
+    background: #eee;
+    border-radius: 4px;
+  }
+
+  header.sticky {
+    position: fixed;
+    z-index: 999;
+  }
+
+  #menu.active {
+    display: block;
+  }
+
+  #mobile-menu-close {
+    display: none;
+    text-align: right;
+    width: 100%;
+    background: #fff;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #3498db;
+  }
+
+  #mobile-menu-close span {
+    font-size: 0.5em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 768px) {
+    #menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      width: 100%;
+      border-radius: 0;
+    }
+
+    #menu li {
+      display: block;
+    }
+
+    #mobile-menu-close {
+      display: block;
+    }
+  }
+</style>
+
+<script>
+  window.addEventListener("scroll", () => {
+    const header = document.getElementById("header");
+    if (!header) return;
+    if (window.scrollY > 50) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  });
+
+  document.getElementById("mobile-menu-open")?.addEventListener("click", () => {
+    const menu = document.getElementById("menu");
+    menu?.classList.add("active");
+  });
+
+  document.getElementById("mobile-menu-close")?.addEventListener("click", () => {
+    const menu = document.getElementById("menu");
+    menu?.classList.remove("active");
+  });
+</script>

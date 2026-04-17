@@ -1,0 +1,53 @@
+---
+import { siteConfig } from "../config";
+const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
+---
+
+{hasExperience && (
+  <div id="experience" class="background-alt">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <h2 class="heading">Experience</h2>
+        </div>
+      </div>
+      <div id="experience-timeline">
+        {siteConfig.experience.map((exp) => (
+          <div class="vtimeline-point">
+            <div class="vtimeline-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+                <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+              </svg>
+            </div>
+            <div class="vtimeline-date">{exp.dateRange}</div>
+            <div class="vtimeline-content">
+              <h3>{exp.title}</h3>
+              <h4>{exp.company}</h4>
+              <ul>
+                {exp.bullets.map((b) => <li>{b}</li>)}
+              </ul>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+<style>
+  #experience {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .col-full {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+</style>
