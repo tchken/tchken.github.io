@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:kevin-hartman.io)",
       "WebFetch(domain:github.com)",
-      "Bash(curl -s https://kevin-hartman.io/)"
+      "Bash(curl -s https://kevin-hartman.io/)",
+      "WebSearch"
     ],
     "additionalDirectories": [
       "/Users/tsung-chin.han/ZDOC/interview/tchken.github.io"
