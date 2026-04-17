@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Tsung-Chin (Ken) Han",
-  title: "ML Engineering | Causal Inference | Deep Learning & Recommendation Systems",
+  title: "Machine Learning | NLP | Computer Vision | Deep Learning",
   description: "Portfolio of Tsung-Chin (Ken) Han — Staff Data Scientist at GroundTruth",
   accentColor: "#3498db",
   resumeUrl: "",
