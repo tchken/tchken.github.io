@@ -14,6 +14,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
       <div class="education-list">
         {siteConfig.education.map((edu) => (
           <div class="education-block shadow-large">
+            {edu.logo && <img src={edu.logo} alt={edu.school} class="school-logo" />}
             <h3>{edu.school}</h3>
             <span class="education-date">{edu.dateRange}</span>
             <h4>{edu.degree}</h4>
@@ -81,6 +82,14 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     font-weight: 500;
     margin: 5px 0 15px 0;
     font-size: 1em;
+  }
+
+  .school-logo {
+    max-height: 40px;
+    max-width: 140px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: block;
   }
 
   .education-block ul {
