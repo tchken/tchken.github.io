@@ -1,0 +1,156 @@
+---
+import { siteConfig } from "../config";
+---
+
+<div id="mobile-menu-open" class="shadow-large">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#3498db" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+  </svg>
+</div>
+
+<div id="lead">
+  <div id="lead-content">
+    <div id="profilepicture">
+      <img class="round-img" src="/images/profile.jpg" alt={siteConfig.name} onerror="this.style.display='none'" />
+    </div>
+    <div style="margin-bottom: 10px;"></div>
+    <h1>{siteConfig.name}</h1>
+    <h2>{siteConfig.title}</h2>
+    {siteConfig.resumeUrl && (
+      <a href={siteConfig.resumeUrl} class="btn-rounded-white" target="_blank" rel="noopener noreferrer">
+        Download Resume
+      </a>
+    )}
+  </div>
+
+  <div id="lead-overlay"></div>
+
+  <div id="lead-down">
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </span>
+  </div>
+</div>
+
+<style>
+  #mobile-menu-open {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    color: #3498db;
+    font-size: 1.5em;
+    z-index: 20;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background: #fff;
+  }
+
+  #lead {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    background: linear-gradient(135deg, #1a252f 0%, #2c3e50 50%, #1a3a5c 100%);
+    padding: 15px;
+    overflow: hidden;
+  }
+
+  #lead-content {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #lead-content h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1em;
+    margin: 0 0 10px 0;
+  }
+
+  #lead-content h2 {
+    color: #a0cfee;
+    font-weight: 400;
+    font-size: 1.4em;
+    margin: 0 0 20px 0;
+  }
+
+  #profilepicture {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #lead-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(22, 79, 120, 0.5);
+    z-index: 1;
+  }
+
+  #lead-down {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    bottom: 35px;
+    color: #fff;
+  }
+
+  #lead-down span {
+    cursor: pointer;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.5s ease;
+    animation: pulsate 1.5s ease infinite;
+  }
+
+  #lead-down span:hover {
+    background: rgba(255,255,255,0.1);
+  }
+
+  #lead-down svg {
+    margin-top: 13px;
+  }
+
+  @keyframes pulsate {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  @media (max-width: 768px) {
+    #lead-content h1 { font-size: 2em; }
+    #lead-content h2 { font-size: 1.1em; }
+    #mobile-menu-open { display: block; }
+  }
+</style>
+
+<script>
+  document.getElementById("lead-down")?.addEventListener("click", () => {
+    const about = document.getElementById("about");
+    if (about) about.scrollIntoView({ behavior: "smooth" });
+  });
+</script>

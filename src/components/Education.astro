@@ -1,0 +1,93 @@
+---
+import { siteConfig } from "../config";
+const hasEducation = siteConfig.education && siteConfig.education.length > 0;
+---
+
+{hasEducation && (
+  <div id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <h2 class="heading">Education</h2>
+        </div>
+      </div>
+      <div class="education-list">
+        {siteConfig.education.map((edu) => (
+          <div class="education-block shadow-large">
+            <h3>{edu.school}</h3>
+            <span class="education-date">{edu.dateRange}</span>
+            <h4>{edu.degree}</h4>
+            {edu.achievements && edu.achievements.length > 0 && (
+              <ul>
+                {edu.achievements.map((a) => <li>{a}</li>)}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+<style>
+  #education {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    background: #fff;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .col-full {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .education-list {
+    margin-top: 20px;
+  }
+
+  .education-block {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border: 1px solid #dcd9d9;
+    position: relative;
+  }
+
+  .education-block h3 {
+    font-weight: 500;
+    float: left;
+    margin: 0;
+    color: #374054;
+    font-size: 1.3em;
+  }
+
+  .education-date {
+    color: #74808a;
+    float: right;
+    font-size: 0.9em;
+    margin-top: 3px;
+  }
+
+  .education-block h4 {
+    color: #7e8890;
+    clear: both;
+    font-weight: 500;
+    margin: 5px 0 15px 0;
+    font-size: 1em;
+  }
+
+  .education-block ul {
+    padding: 0 0 0 15px;
+    margin: 0;
+    color: #74808a;
+    font-size: 0.9em;
+    line-height: 1.6em;
+  }
+</style>

@@ -1,0 +1,261 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #374054;
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+  color: #374054;
+}
+
+.heading::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  height: 1px;
+  width: 50px;
+  left: 0;
+  margin-top: 5px;
+  background: #3498db;
+}
+
+.background-alt {
+  background: #f2f2f5;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.shadow-large {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.btn-rounded-white {
+  display: inline-block;
+  color: #fff;
+  padding: 15px 25px;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  transition: 0.5s ease all;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.btn-rounded-white:hover {
+  color: #3498db;
+  background: #fff;
+  text-decoration: none;
+}
+
+.btn-rounded-blue {
+  display: inline-block;
+  color: #3498db;
+  padding: 15px 25px;
+  border: 3px solid #3498db;
+  border-radius: 30px;
+  transition: 0.5s ease all;
+  text-decoration: none;
+}
+
+.btn-rounded-blue:hover {
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Skills tags */
+.skill-tag {
+  display: inline-block;
+  padding: 5px 15px;
+  background: #e4e4ea;
+  border-radius: 3px;
+  margin: 5px;
+  font-size: 0.9em;
+  color: #374054;
+}
+
+/* Experience timeline */
+#experience-timeline {
+  margin: 30px auto 0 auto;
+  position: relative;
+  max-width: 1000px;
+}
+
+#experience-timeline::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 303px;
+  right: auto;
+  height: 100%;
+  width: 3px;
+  background: #3498db;
+  z-index: 0;
+}
+
+#experience-timeline::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 40px;
+  background: linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
+  top: 100%;
+  left: 303px;
+}
+
+.vtimeline-content {
+  margin-left: 350px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  padding: 15px 20px;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.vtimeline-content h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #374054;
+  display: inline-block;
+  margin: 0;
+}
+
+.vtimeline-content h4 {
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #7e8890;
+  margin: 0 0 15px 0;
+}
+
+.vtimeline-content p,
+.vtimeline-content ul {
+  color: #74808a;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.vtimeline-content ul {
+  padding-left: 20px;
+}
+
+.vtimeline-point {
+  position: relative;
+  display: block;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.vtimeline-icon {
+  position: relative;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background: #3498db;
+  border-radius: 50%;
+  float: left;
+  z-index: 99;
+  margin-left: 280px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.vtimeline-date {
+  width: 260px;
+  text-align: right;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-weight: 300;
+  color: #374054;
+}
+
+@media (max-width: 768px) {
+  #experience-timeline::before,
+  #experience-timeline::after {
+    left: 23px;
+  }
+
+  .vtimeline-date {
+    display: none;
+  }
+
+  .vtimeline-icon {
+    margin-left: 0;
+  }
+
+  .vtimeline-content {
+    margin-left: 70px;
+  }
+}
+
+/* Round profile image */
+.round-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Contact section */
+#contact {
+  background: #3498db;
+}
+
+#contact h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+#contact .heading::after {
+  background: #fff;
+}
+
+/* Footer */
+footer {
+  padding: 50px 0;
+  background: #f2f2f5;
+}
+
+.copyright p {
+  color: #74808a;
+  margin: 0;
+}
+
+.social ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.social li {
+  display: inline-block;
+  font-size: 1.25em;
+  list-style: none;
+}
+
+.social a {
+  display: block;
+  color: #74808a;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.social a:hover {
+  color: #3498db;
+}

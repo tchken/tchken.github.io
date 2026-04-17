@@ -1,0 +1,115 @@
+---
+import { siteConfig } from "../config";
+const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
+---
+
+{hasProjects && (
+  <div id="projects" class="background-alt">
+    <div class="container">
+      <div class="row">
+        <div class="col-full">
+          <h2 class="heading">Projects</h2>
+        </div>
+      </div>
+      <div class="projects-grid">
+        {siteConfig.projects.map((project) => (
+          <div class="project shadow-large">
+            <div class="project-info">
+              <h3>{project.name}</h3>
+              <p>{project.description}</p>
+              <div class="project-skills">
+                {project.skills?.map((s) => (
+                  <span class="skill-tag">{s}</span>
+                ))}
+              </div>
+              {project.link && (
+                <div class="project-links">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    View Project
+                  </a>
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
+<style>
+  #projects {
+    padding: 75px 15px;
+    border-bottom: 1px solid #dcd9d9;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .col-full {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  .project {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+
+  .project:hover {
+    transform: translateY(-3px);
+  }
+
+  .project-info {
+    padding: 25px;
+  }
+
+  .project-info h3 {
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #374054;
+    margin: 0 0 10px 0;
+  }
+
+  .project-info p {
+    color: #74808a;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    margin: 0 0 15px 0;
+  }
+
+  .project-skills {
+    margin-bottom: 15px;
+  }
+
+  .project-links {
+    margin-top: 10px;
+  }
+
+  .project-links a {
+    color: #3498db;
+    font-size: 0.9em;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    padding: 5px 12px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+  }
+
+  .project-links a:hover {
+    background: #3498db;
+    color: #fff;
+  }
+</style>
