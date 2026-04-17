@@ -6,6 +6,9 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: "https://tchken.github.io",
   outDir: "docs",
+  build: {
+    assets: "assets",
+  },
   vite: {
     plugins: [tailwindcss()],
   },
