@@ -15,7 +15,14 @@
       "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/deutschebank.png https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_bank_logo_without_wordmark.svg/150px-Deutsche_bank_logo_without_wordmark.svg.png)",
       "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/sp.png https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/S%26P_Global_logo_%282022%29.svg/200px-S%26P_Global_logo_%282022%29.svg.png)",
       "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/berkeley.png https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/UCBerkeley_wordmark_blue.png/300px-UCBerkeley_wordmark_blue.png)",
-      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/columbia.png https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/150px-Columbia_University_shield.svg.png)"
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/columbia.png https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/150px-Columbia_University_shield.svg.png)",
+      "Bash(curl -sL -A \"Mozilla/5.0\" \"https://www.linkedin.com/in/ken-tsung-chin-han/\")",
+      "Bash(curl -sI \"https://cdn.brandfetch.io/walmart.com/w/200/h/200\")",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/walmart.png https://cdn.brandfetch.io/walmart.com/w/200/h/200)",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/deutschebank.png https://cdn.brandfetch.io/db.com/w/200/h/200)",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/sp.png https://cdn.brandfetch.io/spglobal.com/w/200/h/200)",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/groundtruth.png https://cdn.brandfetch.io/groundtruth.com/w/200/h/200)",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/berkeley.png https://cdn.brandfetch.io/berkeley.edu/w/200/h/200)"
     ],
     "additionalDirectories": [
       "/Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos"
