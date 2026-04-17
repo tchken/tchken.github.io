@@ -3,7 +3,8 @@
     "allow": [
       "Read(//private/tmp/devportfolio-tmp/**)",
       "Bash(npm install *)",
-      "Bash(curl -s https://kevin-hartman.io/css/styles.css)"
+      "Bash(curl -s https://kevin-hartman.io/css/styles.css)",
+      "Bash(npm run *)"
     ]
   }
 }
