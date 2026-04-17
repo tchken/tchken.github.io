@@ -36,6 +36,7 @@ export const siteConfig = {
   experience: [
     {
       company: "GroundTruth",
+      logo: "https://commons.wikimedia.org/wiki/Special:FilePath/GroundTruth_logo.png",
       title: "Staff Data Scientist",
       dateRange: "Nov 2024 – Present",
       bullets: [
@@ -44,6 +45,7 @@ export const siteConfig = {
     },
     {
       company: "GroundTruth",
+      logo: "https://commons.wikimedia.org/wiki/Special:FilePath/GroundTruth_logo.png",
       title: "Senior Data Scientist",
       dateRange: "May 2021 – Oct 2024",
       bullets: [
@@ -53,6 +55,7 @@ export const siteConfig = {
     },
     {
       company: "Walmart",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Walmart_Spark.svg/120px-Walmart_Spark.svg.png",
       title: "Data Scientist, Machine Learning",
       dateRange: "2020 – 2021",
       bullets: [
@@ -62,6 +65,7 @@ export const siteConfig = {
     },
     {
       company: "Deutsche Bank",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_bank_logo_without_wordmark.svg/120px-Deutsche_bank_logo_without_wordmark.svg.png",
       title: "Assistant Vice President",
       dateRange: "2017 – 2019",
       bullets: [
@@ -70,6 +74,7 @@ export const siteConfig = {
     },
     {
       company: "S&P Dow Jones Indices",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/S%26P_Global_logo_%282022%29.svg/180px-S%26P_Global_logo_%282022%29.svg.png",
       title: "Quantitative Analyst",
       dateRange: "2015 – 2017",
       bullets: [
@@ -78,6 +83,7 @@ export const siteConfig = {
     },
     {
       company: "Coastal Management, LLC",
+      logo: "",
       title: "Quantitative Research",
       dateRange: "2015",
       bullets: [
@@ -86,6 +92,7 @@ export const siteConfig = {
     },
     {
       company: "Rizm",
+      logo: "",
       title: "Quantitative Research",
       dateRange: "2014",
       bullets: [
@@ -96,18 +103,21 @@ export const siteConfig = {
   education: [
     {
       school: "UC Berkeley School of Information",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/UCBerkeley_wordmark_blue.png/280px-UCBerkeley_wordmark_blue.png",
       degree: "Master's in Information and Data Science",
       dateRange: "",
       achievements: [],
     },
     {
       school: "Columbia University in the City of New York",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/120px-Columbia_University_shield.svg.png",
       degree: "Master's in Mathematics (Mathematics of Finance)",
       dateRange: "",
       achievements: [],
     },
     {
       school: "National Taiwan Normal University",
+      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/National_Taiwan_Normal_University_seal.svg/120px-National_Taiwan_Normal_University_seal.svg.png",
       degree: "Bachelor's in Physics",
       dateRange: "",
       achievements: [

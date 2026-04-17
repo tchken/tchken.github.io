@@ -4,7 +4,21 @@
       "Read(//private/tmp/devportfolio-tmp/**)",
       "Bash(npm install *)",
       "Bash(curl -s https://kevin-hartman.io/css/styles.css)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/groundtruth.png \"https://img.logo.dev/groundtruth.com?token=pk_DRKwCNLkT26uMsJCDCL4Dw\")",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/walmart.png \"https://img.logo.dev/walmart.com?token=pk_DRKwCNLkT26uMsJCDCL4Dw\")",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/deutschebank.png \"https://img.logo.dev/db.com?token=pk_DRKwCNLkT26uMsJCDCL4Dw\")",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/sp.png \"https://img.logo.dev/spglobal.com?token=pk_DRKwCNLkT26uMsJCDCL4Dw\")",
+      "Bash(curl -sL -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/berkeley.png \"https://img.logo.dev/berkeley.edu?token=pk_DRKwCNLkT26uMsJCDCL4Dw\")",
+      "Bash(file /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/*.png)",
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/walmart.png https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Walmart_Spark.svg/150px-Walmart_Spark.svg.png)",
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/deutschebank.png https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_bank_logo_without_wordmark.svg/150px-Deutsche_bank_logo_without_wordmark.svg.png)",
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/sp.png https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/S%26P_Global_logo_%282022%29.svg/200px-S%26P_Global_logo_%282022%29.svg.png)",
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/berkeley.png https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/UCBerkeley_wordmark_blue.png/300px-UCBerkeley_wordmark_blue.png)",
+      "Bash(curl -sL -A 'Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36' -o /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos/columbia.png https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Columbia_University_shield.svg/150px-Columbia_University_shield.svg.png)"
+    ],
+    "additionalDirectories": [
+      "/Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/logos"
     ]
   }
 }

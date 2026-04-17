@@ -21,6 +21,7 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
             </div>
             <div class="vtimeline-date">{exp.dateRange}</div>
             <div class="vtimeline-content">
+              {exp.logo && <img src={exp.logo} alt={exp.company} class="company-logo" />}
               <h3>{exp.title}</h3>
               <h4>{exp.company}</h4>
               <ul>
@@ -49,5 +50,13 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
   .col-full {
     text-align: center;
     margin-bottom: 10px;
+  }
+
+  .company-logo {
+    max-height: 40px;
+    max-width: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: block;
   }
 </style>
