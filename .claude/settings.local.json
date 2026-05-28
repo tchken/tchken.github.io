@@ -4,10 +4,16 @@
       "WebFetch(domain:kevin-hartman.io)",
       "WebFetch(domain:github.com)",
       "Bash(curl -s https://kevin-hartman.io/)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(find /Users/tsung-chin.han/ZDOC/tech_learn/Berkeley/w210_capstone -type f | head -50 && echo \"---\" && ls /Users/tsung-chin.han/ZDOC/tech_learn/Berkeley/w210_capstone)",
+      "Read(//Users/tsung-chin.han/ZDOC/tech_learn/Berkeley/w210_capstone/**)",
+      "Bash(xargs ls -la)",
+      "Bash(sort -k5 -rn)",
+      "Bash(cp /Users/tsung-chin.han/ZDOC/tech_learn/Berkeley/w210_capstone/irrigation_detection/reports/images/california_ag.png /Users/tsung-chin.han/ZDOC/interview/tchken.github.io/public/images/projects/sen12ms_satellite.png)"
     ],
     "additionalDirectories": [
-      "/Users/tsung-chin.han/ZDOC/interview/tchken.github.io"
+      "/Users/tsung-chin.han/ZDOC/interview/tchken.github.io",
+      "/Users/tsung-chin.han/ZDOC/tech_learn/Berkeley/w210_capstone/irrigation_detection/reports/images"
     ]
   }
 }
