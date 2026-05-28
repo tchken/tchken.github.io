@@ -9,7 +9,7 @@ import { siteConfig } from "../config";
         <h2 class="heading">About Me</h2>
       </div>
       <div class="col-right">
-        <p>{siteConfig.aboutMe}</p>
+        {siteConfig.aboutMe.split('\n\n').map((para) => <p>{para}</p>)}
         <div class="skills-row">
           {siteConfig.skills.map((skill) => (
             <span class="skill-tag">{skill}</span>

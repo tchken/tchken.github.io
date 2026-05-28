@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/tchken",
   },
   aboutMe:
-    "Ken is a seasoned Machine Learning Engineer and Data Scientist specializing in large-scale recommendation systems, ranking, and deep learning architectures. He bridges machine learning with causal inference to move beyond predictive accuracy, uncovering the true behavioral drivers behind complex user and system interactions. With experience building high-stakes systems across B2C and B2B environments, Ken owns the full machine learning lifecycle: from feature engineering and model architecture to scalable production deployment.",
+    "I am a seasoned Machine Learning Engineer and Data Scientist specializing in large-scale recommendation systems, ranking, and deep learning architectures. My focus is on engineering machine learning workflows and deep learning pipelines, integrating causal inference to move beyond predictive accuracy, uncover business opportunities, and understand the mechanics behind complex user and system interactions.\n\nWith experience building high-stakes systems across B2C and B2B environments, I own the full machine learning lifecycle: from feature engineering and model architecture to high-throughput production deployment.",
   skills: [
     "Machine Learning",
     "Deep Learning",
