@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2c3036"/>
+      <stop offset="55%" stop-color="#4a525b"/>
+      <stop offset="100%" stop-color="#adb5bd"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5e6f7a"/>
+      <stop offset="100%" stop-color="#465058"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+
+  <!-- title -->
+  <text x="44" y="44" fill="#eceef0" font-size="19" font-weight="700" letter-spacing="0.4">Sea Level Rise — an interactive coastal flood explorer</text>
+  <text x="44" y="66" fill="#c4c9ce" font-size="12.5" letter-spacing="0.3">drag the slider &#8594; watch the coastline drown under each CO&#8322; future</text>
+
+  <!-- ===== browser window ===== -->
+  <g filter="url(#soft)">
+    <rect x="44" y="92" width="1112" height="236" rx="12" fill="#f4f6f8"/>
+    <!-- chrome bar -->
+    <rect x="44" y="92" width="1112" height="36" rx="12" fill="#2b2f36"/>
+    <rect x="44" y="114" width="1112" height="14" fill="#2b2f36"/>
+    <circle cx="68" cy="111" r="5" fill="#ff5f56"/>
+    <circle cx="86" cy="111" r="5" fill="#ffbd2e"/>
+    <circle cx="104" cy="111" r="5" fill="#27c93f"/>
+    <rect x="130" y="101" width="420" height="20" rx="10" fill="#3a4048"/>
+    <text x="146" y="115" fill="#aab1b9" font-size="11" font-family="monospace">sealevelrise.app  /  new-york</text>
+
+    <!-- ===== MAP ===== -->
+    <clipPath id="mapclip"><rect x="60" y="140" width="744" height="172" rx="8"/></clipPath>
+    <g clip-path="url(#mapclip)">
+      <!-- water base -->
+      <rect x="60" y="140" width="744" height="172" fill="url(#water)"/>
+      <!-- subtle lat/long grid -->
+      <g stroke="#7c8893" stroke-width="0.6" opacity="0.5">
+        <line x1="60" y1="180" x2="804" y2="180"/>
+        <line x1="60" y1="220" x2="804" y2="220"/>
+        <line x1="60" y1="260" x2="804" y2="260"/>
+        <line x1="200" y1="140" x2="200" y2="312"/>
+        <line x1="340" y1="140" x2="340" y2="312"/>
+        <line x1="480" y1="140" x2="480" y2="312"/>
+        <line x1="620" y1="140" x2="620" y2="312"/>
+      </g>
+      <!-- land mass -->
+      <path d="M60,140 L470,140 L500,178 L452,214 L520,250 L470,312 L60,312 Z" fill="#79818a"/>
+      <!-- city skyline near the coast -->
+      <g fill="#3b424a">
+        <rect x="300" y="244" width="22" height="68"/>
+        <rect x="326" y="214" width="18" height="98"/>
+        <rect x="348" y="258" width="24" height="54"/>
+        <rect x="376" y="230" width="16" height="82"/>
+        <rect x="396" y="250" width="26" height="62"/>
+        <rect x="426" y="236" width="18" height="76"/>
+      </g>
+      <!-- flood overlay (risen water creeping onto land) -->
+      <path d="M60,268 L455,268 L505,250 L470,312 L60,312 Z" fill="#c2ccd5" opacity="0.5"/>
+      <text x="120" y="300" fill="#eef2f5" font-size="11" font-family="monospace" opacity="0.85">+ flood overlay</text>
+    </g>
+
+    <!-- slider control (on top of map) -->
+    <rect x="92" y="291" width="640" height="6" rx="3" fill="#ffffff" opacity="0.85"/>
+    <rect x="92" y="291" width="440" height="6" rx="3" fill="#adb5bd"/>
+    <circle cx="532" cy="294" r="9" fill="#868e96" stroke="#fff" stroke-width="2.5"/>
+    <text x="92" y="282" fill="#eef0f2" font-size="10.5" font-family="monospace">2020</text>
+    <text x="700" y="282" fill="#eef0f2" font-size="10.5" font-family="monospace" text-anchor="end">2100</text>
+
+    <!-- ===== side panel: readout ===== -->
+    <rect x="820" y="140" width="320" height="172" rx="8" fill="#2b2f36"/>
+    <text x="844" y="172" fill="#aab1b9" font-size="11" font-weight="700" letter-spacing="1">PROJECTED SEA-LEVEL RISE</text>
+    <text x="844" y="226" fill="#e6e9ec" font-size="46" font-weight="800">+1.8 m</text>
+    <text x="844" y="252" fill="#c4c9ce" font-size="13">by 2080 &#183; +3 &#176;C / high-emissions path</text>
+    <line x1="844" y1="270" x2="1116" y2="270" stroke="#41474e" stroke-width="1"/>
+    <text x="844" y="296" fill="#99a1a9" font-size="12" font-family="monospace">CO&#8322; &#8594; sea-level model &#183; R&#178; = 0.93</text>
+  </g>
+</svg>
