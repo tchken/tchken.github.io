@@ -256,9 +256,7 @@ export const siteConfig = {
       title: "Staff Data Scientist, Machine Learning",
       dateRange: "Nov 2024 – Present",
       bullets: [
-        "GenAI & RecSys Architecture: Rebuilt the audience recommender into a two-stage retrieval-and-ranking system using pretrained LLM taxonomy embeddings for semantic candidate generation and real-time engagement ranking — solving cold-start constraints, cutting irrelevance from 20+% to <1.2%, and serving top-5 results across search and LLM-agent surfaces for ~12K advertisers.",
-        "Enterprise ML Platform Ownership: Architected and own the production ML platform — unifying AWS infrastructure, dbt and Kedro pipelines, MLflow registry, and Terraform orchestration for training, offline and online serving, and low-latency inference.",
-        "Strategic Measurement & Partnerships: Engineered a probabilistic store-level foot-traffic projection model calibrating streaming audio against broadcast radio impressions, unlocking audio ad revenue and securing GroundTruth as a named launch measurement partner for iHeartMedia's AudioGraph.",
+        "Technical lead. GenAI RecSys. Retrieval & ranking. ML platform.",
       ],
     },
     {
@@ -267,8 +265,7 @@ export const siteConfig = {
       title: "Senior Data Scientist, Machine Learning",
       dateRange: "May 2021 – Oct 2024",
       bullets: [
-        "Causal ML & Uplift Infrastructure: Built a self-serve visitation uplift platform using 10% holdouts and synthetic controls to model POI causal lift (ATE/CACE), cutting measurement latency from a 24-hour daily batch to a 60-minute SLA.",
-        "Data Representation Learning: Replaced heuristic segmentation with deep learning models across ~10K self-serve advertisers, building a feature foundation for churn, retention, and downstream systems — powering a loyalty program that drove a +432% core redeemers spend surge and ~$500K incremental spend in 3 months.",
+        "Deep learning representation. Causal ML. Uplift measurement.",
       ],
     },
     {
@@ -277,7 +274,7 @@ export const siteConfig = {
       title: "Graduate Researcher, Self-Supervised Learning",
       dateRange: "May 2020 – Mar 2021",
       bullets: [
-        "Self-Supervised Multi-Modal Vision: Built a 12-channel self-supervised pipeline (MoCo v2 + ResNet50) fusing geo-aligned Sentinel-1/2 optical/radar pairs across 180K+ patches — beating supervised baselines by +0.08 accuracy (linear probe) and doubling multi-GPU training throughput via OpenCV/PIL optimization.",
+        "Self-supervised learning. Multi-modal representation.",
       ],
     },
     {
@@ -286,7 +283,7 @@ export const siteConfig = {
       title: "Data Scientist, Deep Learning",
       dateRange: "Jan 2020 – Feb 2021",
       bullets: [
-        "Deep Personalization & Feature Engineering: Built GPU-accelerated deep learning personalization models on text embeddings of transaction data to infer multi-label trip intents — driving 2× Walmart+ grocery order frequency while engineering real-time 2.5TB+ daily GCP feature pipelines for enterprise CLV systems.",
+        "Deep learning personalization. Real-time feature pipelines.",
       ],
     },
     {
@@ -295,18 +292,34 @@ export const siteConfig = {
       title: "Assistant Vice President, Modeling and Analytics",
       dateRange: "Jun 2017 – Oct 2019",
       bullets: [
-        "Macro Hedging & Options Pricing: Built ML/statistical macro hedging and index-options pricing models for Treasury capital allocation, supporting index options desk execution and generating ~$60M net profit.",
+        "Macro hedging. Index options pricing. Treasury.",
       ],
     },
     {
-      company: "Early Quantitative Research, Trading & Modeling Experience",
+      company: "S&P Dow Jones Indices",
       logo: "https://www.google.com/s2/favicons?domain=spglobal.com&sz=128",
-      title: "New York, NY",
-      dateRange: "2014 – 2017",
+      title: "Analyst, Quantitative Modeling",
+      dateRange: "May 2015 – Jun 2017",
       bullets: [
-        "S&P Dow Jones Indices (Quant Analyst): Built low-latency Bloomberg API pricing pipeline for custom indices, replacing a 2-hour manual process.",
-        "Coastal Management (Quant): Engineered ML post-earnings drift strategy achieving 11% annual excess return.",
-        "Rizm Inc. (Data): Designed widget architecture mapping quant blocks to backend models, driving 3× MAU.",
+        "Index construction. Pricing pipelines.",
+      ],
+    },
+    {
+      company: "Coastal Management LLC",
+      logo: "",
+      title: "Data Analytics Intern, Quantitative Research",
+      dateRange: "Jan 2015 – Apr 2015",
+      bullets: [
+        "ML trading strategy.",
+      ],
+    },
+    {
+      company: "Rizm Inc.",
+      logo: "",
+      title: "Quant Trading, Quant Research",
+      dateRange: "Mar 2014 – Aug 2014",
+      bullets: [
+        "Quant data products.",
       ],
     },
   ],
