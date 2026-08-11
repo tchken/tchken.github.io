@@ -279,7 +279,7 @@ export const siteConfig = {
     {
       company: "Walmart eCommerce",
       logo: "https://www.google.com/s2/favicons?domain=walmart.com&sz=128",
-      title: "Data Scientist, Deep Learning",
+      title: "Data Scientist, Manager",
       dateRange: "Jan 2020 – Feb 2021",
       bullets: [
         "Deep learning personalization. Real-time feature pipelines.",
@@ -291,7 +291,7 @@ export const siteConfig = {
       title: "Assistant Vice President, Modeling and Analytics",
       dateRange: "Jun 2017 – Oct 2019",
       bullets: [
-        "Macro hedging. Index options pricing. Treasury.",
+        "Macro hedging. Treasury.",
       ],
     },
     {
