@@ -23,10 +23,26 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
             <div class="vtimeline-content">
               {exp.logos && exp.logos.length > 0 ? (
                 <span class="company-logos">
-                  {exp.logos.map((l) => <img src={l} alt={exp.company} class="company-logo" />)}
+                  {exp.logos.map((l) => (
+                    l.url ? (
+                      <a href={l.url} target="_blank" rel="noopener noreferrer" aria-label={`${l.name} on LinkedIn`}>
+                        <img src={l.src} alt={l.name} class="company-logo" />
+                      </a>
+                    ) : <img src={l.src} alt={l.name} class="company-logo" />
+                  ))}
                 </span>
-              ) : exp.logo && <img src={exp.logo} alt={exp.company} class="company-logo" />}
-              <h3>{exp.company}</h3>
+              ) : exp.logo && (
+                exp.url ? (
+                  <a href={exp.url} target="_blank" rel="noopener noreferrer" aria-label={`${exp.company} on LinkedIn`}>
+                    <img src={exp.logo} alt={exp.company} class="company-logo" />
+                  </a>
+                ) : <img src={exp.logo} alt={exp.company} class="company-logo" />
+              )}
+              <h3>
+                {exp.url
+                  ? <a href={exp.url} class="company-link" target="_blank" rel="noopener noreferrer">{exp.company}</a>
+                  : exp.company}
+              </h3>
               <h4>{exp.title}</h4>
               <ul>
                 {exp.bullets.map((b) => <li>{b}</li>)}
@@ -73,5 +89,29 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 
   .company-logos .company-logo {
     margin-bottom: 0;
+  }
+
+  .company-logos a,
+  .vtimeline-content > a {
+    display: inline-block;
+    line-height: 0;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  .company-logos a:hover,
+  .vtimeline-content > a:hover {
+    opacity: 0.75;
+    transform: translateY(-2px);
+  }
+
+  .company-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .company-link:hover {
+    color: var(--primary-color, #3498db);
+    text-decoration: underline;
   }
 </style>
