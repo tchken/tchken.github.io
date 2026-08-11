@@ -21,7 +21,11 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
             </div>
             <div class="vtimeline-date">{exp.dateRange}</div>
             <div class="vtimeline-content">
-              {exp.logo && <img src={exp.logo} alt={exp.company} class="company-logo" />}
+              {exp.logos && exp.logos.length > 0 ? (
+                <span class="company-logos">
+                  {exp.logos.map((l) => <img src={l} alt={exp.company} class="company-logo" />)}
+                </span>
+              ) : exp.logo && <img src={exp.logo} alt={exp.company} class="company-logo" />}
               <h3>{exp.company}</h3>
               <h4>{exp.title}</h4>
               <ul>
@@ -58,5 +62,16 @@ const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
     object-fit: contain;
     margin-bottom: 10px;
     display: block;
+  }
+
+  .company-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .company-logos .company-logo {
+    margin-bottom: 0;
   }
 </style>
