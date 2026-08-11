@@ -45,7 +45,7 @@ export const siteConfig = {
       tagline: "A self-supervised approach that treats co-registered Sentinel-1 (radar) and Sentinel-2 (optical) acquisitions as natural positive pairs — eliminating the need for hand-crafted augmentations",
       image: "/images/projects/sen12ms_pair.png",
       description:
-        "Built an end-to-end self-supervised learning pipeline that combines two complementary ideas: leverage 180K+ unlabeled patches via MoCo v2 contrastive pretraining instead of burning scarce labels, and replace hand-crafted augmentations with geo-aligned Sentinel-1 (radar) + Sentinel-2 (optical) acquisitions of the same location as natural positive pairs. A ResNet50 encoder pretrained this way — frozen and probed with a single linear head on 1,024 labeled samples — beat the fully supervised baseline by +0.08 accuracy, hitting the label-noise ceiling of the IGBP scheme. Takeaway: pairing the SSL paradigm with a domain-native positive-pair signal does more with less — outperforming supervised training while using zero additional labels.",
+        "Built an end-to-end self-supervised learning pipeline that combines two complementary ideas: leverage 180K+ unlabeled patches via MoCo v2 contrastive pretraining instead of burning scarce labels, and replace hand-crafted augmentations with geo-aligned Sentinel-1 (radar) + Sentinel-2 (optical) acquisitions of the same location as natural positive pairs. A ResNet50 encoder pretrained this way — then fine-tuned on just 1,024 labeled samples — beat the fully supervised baseline trained on the same label budget by +0.08 accuracy, hitting the label-noise ceiling of the IGBP scheme. Takeaway: pairing the SSL paradigm with a domain-native positive-pair signal does more with less — outperforming supervised training while using zero additional labels.",
       pipeline: [
         {
           step: "Data Pipeline",
@@ -57,7 +57,7 @@ export const siteConfig = {
         },
         {
           step: "Fine-tune",
-          detail: "Standard linear probe: freeze the ResNet50 encoder, train a single linear classification head on 1,024 labeled SEN12MS patches.",
+          detail: "Transfer learning: initialize the SEN12MS scene-classification ResNet50 from the MoCo backbone and fine-tune end-to-end on 1,024 labeled patches. Freezing the backbone fully or partially was tested and did not improve accuracy — the representation transferred best when allowed to adapt.",
         },
         {
           step: "Evaluate",
@@ -69,7 +69,7 @@ export const siteConfig = {
         headers: ["Method", "S1 (Sentinel-1) SAR", "S2 (Sentinel-2) Optical", "S1 + S2 Fused"],
         rows: [
           ["Supervised baseline (ResNet50)",                "0.40", "0.61", "0.59"],
-          ["Geo-alignment MoCo v2 (ResNet50 + linear probe)", "—",    "0.63", "0.67 ✦"],
+          ["Geo-alignment MoCo v2 (ResNet50, fine-tuned)", "—",    "0.63", "0.67 ✦"],
         ],
         footnotes: [
           "✦ Near theoretical upper bound (~0.67) imposed by IGBP label noise.",
@@ -271,7 +271,7 @@ export const siteConfig = {
       company: "Berkeley AI Research (BAIR)",
       logo: "https://www.google.com/s2/favicons?domain=berkeley.edu&sz=128",
       title: "Graduate Researcher, Self-Supervised Learning",
-      dateRange: "May 2020 – Mar 2021",
+      dateRange: "Jan 2021 – May 2021",
       bullets: [
         "Self-supervised learning. Multi-modal representation.",
       ],
