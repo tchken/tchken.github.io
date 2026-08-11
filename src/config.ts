@@ -251,9 +251,18 @@ export const siteConfig = {
   experience: [
     {
       company: "GroundTruth (a ZeroToOne.AI company)",
+      url: "https://www.linkedin.com/company/groundtruthco",
       logos: [
-        "https://www.google.com/s2/favicons?domain=groundtruth.com&sz=128",
-        "https://www.google.com/s2/favicons?domain=zerotoone.ai&sz=128",
+        {
+          name: "GroundTruth",
+          src: "https://www.google.com/s2/favicons?domain=groundtruth.com&sz=128",
+          url: "https://www.linkedin.com/company/groundtruthco",
+        },
+        {
+          name: "ZeroToOne.AI",
+          src: "https://www.google.com/s2/favicons?domain=zerotoone.ai&sz=128",
+          url: "https://www.linkedin.com/company/zerotoone-ai/",
+        },
       ],
       title: "Staff Data Scientist, Machine Learning",
       dateRange: "Nov 2024 – Present",
@@ -263,6 +272,7 @@ export const siteConfig = {
     },
     {
       company: "GroundTruth",
+      url: "https://www.linkedin.com/company/groundtruthco",
       logo: "https://www.google.com/s2/favicons?domain=groundtruth.com&sz=128",
       title: "Senior Data Scientist, Machine Learning",
       dateRange: "May 2021 – Oct 2024",
@@ -272,6 +282,7 @@ export const siteConfig = {
     },
     {
       company: "Berkeley AI Research (BAIR)",
+      url: "https://www.linkedin.com/company/bair-lab",
       logo: "https://www.google.com/s2/favicons?domain=berkeley.edu&sz=128",
       title: "Graduate Researcher, Self-Supervised Learning",
       dateRange: "Jan 2021 – May 2021",
@@ -281,6 +292,7 @@ export const siteConfig = {
     },
     {
       company: "Walmart eCommerce",
+      url: "https://www.linkedin.com/company/walmart/",
       logo: "https://www.google.com/s2/favicons?domain=walmart.com&sz=128",
       title: "Data Scientist, Manager",
       dateRange: "Jan 2020 – Feb 2021",
@@ -290,6 +302,7 @@ export const siteConfig = {
     },
     {
       company: "Deutsche Bank",
+      url: "https://www.linkedin.com/company/deutsche-bank/",
       logo: "/images/logos/deutschebank.svg",
       title: "Assistant Vice President, Modeling and Analytics",
       dateRange: "Jun 2017 – Oct 2019",
@@ -299,6 +312,7 @@ export const siteConfig = {
     },
     {
       company: "S&P Dow Jones Indices",
+      url: "https://www.linkedin.com/showcase/s%26p-dow-jones-indices/",
       logo: "https://www.google.com/s2/favicons?domain=spglobal.com&sz=128",
       title: "Analyst, Quantitative Modeling",
       dateRange: "May 2015 – Jun 2017",
@@ -308,6 +322,7 @@ export const siteConfig = {
     },
     {
       company: "Coastal Management LLC",
+      url: "https://www.linkedin.com/company/coastal-management-llc/",
       logo: "",
       title: "Quantitative Research",
       dateRange: "Jan 2015 – Apr 2015",
@@ -317,6 +332,7 @@ export const siteConfig = {
     },
     {
       company: "Rizm Inc.",
+      url: "https://www.linkedin.com/company/rizm/",
       logo: "",
       title: "Data, Quant",
       dateRange: "Mar 2014 – Aug 2014",
