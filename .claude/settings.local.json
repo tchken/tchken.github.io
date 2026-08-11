@@ -39,7 +39,13 @@
       "Bash(curl -s \"http://localhost:4321/projects/sea-level/index.html\")",
       "Bash(echo \"exit: $?\")",
       "Bash(gh run *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code}\\\\n\" --max-time 8 https://www.cstlgroup.com)",
+      "Bash(curl -sL -o /tmp/c.png -w \"%{http_code} %{size_download}b \" --max-time 8 \"https://www.google.com/s2/favicons?domain=cstlgroup.com&sz=128\")",
+      "Bash(curl -sL --max-time 10 https://www.cstlgroup.com)",
+      "Bash(curl -sL --max-time 10 https://www.cstlgroup.com -o cstl.html)",
+      "Bash(curl -sL -o /tmp/fi.ico -w \"%{http_code} %{size_download}b \" --max-time 8 https://www.cstlgroup.com/favicon.ico)"
     ],
     "additionalDirectories": [
       "/Users/tsung-chin.han/ZDOC/interview/tchken.github.io",

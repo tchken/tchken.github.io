@@ -262,11 +262,8 @@ export const siteConfig = {
       ],
     },
     {
-      company: "GroundTruth (a ZeroToOne.AI company)",
-      logos: [
-        "https://www.google.com/s2/favicons?domain=groundtruth.com&sz=128",
-        "https://www.google.com/s2/favicons?domain=zerotoone.ai&sz=128",
-      ],
+      company: "GroundTruth",
+      logo: "https://www.google.com/s2/favicons?domain=groundtruth.com&sz=128",
       title: "Senior Data Scientist, Machine Learning",
       dateRange: "May 2021 – Oct 2024",
       bullets: [
