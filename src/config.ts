@@ -300,7 +300,7 @@ export const siteConfig = {
       title: "Analyst, Quantitative Modeling",
       dateRange: "May 2015 – Jun 2017",
       bullets: [
-        "Index construction. Pricing pipelines.",
+        "Custom Index construction. Pricing pipelines.",
       ],
     },
     {
@@ -318,7 +318,7 @@ export const siteConfig = {
       title: "Quant Trading, Quant Research",
       dateRange: "Mar 2014 – Aug 2014",
       bullets: [
-        "Quant data products.",
+        "Trading platform. Quant data products.",
       ],
     },
   ],
