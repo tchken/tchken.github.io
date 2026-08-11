@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Tsung-Chin (Ken) Han",
+  name: "Tsung-Chin Han | Ken",
   title: "RecSys · Retrieval & Ranking | LLM/GenAI | Deep Learning | Distributed ML",
-  description: "Portfolio of Tsung-Chin (Ken) Han — Staff Data Scientist, Machine Learning at GroundTruth",
+  description: "Portfolio of Tsung-Chin Han (Ken) — Staff Data Scientist, Machine Learning at GroundTruth",
   accentColor: "#3498db",
   resumeUrl: "",
   social: {
@@ -25,7 +25,6 @@ export const siteConfig = {
     "PyTorch",
     "TensorFlow",
     "Keras",
-    "Hugging Face (Transformers)",
     "SQL",
     "MLflow",
     "Weights & Biases",
@@ -33,7 +32,7 @@ export const siteConfig = {
     "Docker",
     "Terraform",
     "Apache Spark",
-    "AWS (Glue, Athena, EC2, SageMaker, Bedrock, Step Functions)",
+    "AWS",
     "GCP",
     "MLOps",
   ],
@@ -130,7 +129,7 @@ export const siteConfig = {
       pipeline: [
         {
           step: "Fine-tune",
-          detail: "Fine-tuned GPT-2 (345M, 24-block decoder, 1024-dim) on ~194K title→body jokes from Reddit's r/Jokes community — ~3.5K steps, average loss 2.90→1.90 on a single NVIDIA Tesla K80. A decoding sweep set top-k 40 / temperature 0.85; the extremes were characterized as failure modes — looping text, empty strings, or incoherent word salad.",
+          detail: "Fine-tuned GPT-2 (345M, 24-block decoder, 1024-dim) on ~194K title→body jokes from Reddit's r/Jokes community — ~3.5K steps, average loss 2.90→1.90, trained on a GPU cluster. A decoding sweep set top-k 40 / temperature 0.85; the extremes were characterized as failure modes — looping text, empty strings, or incoherent word salad.",
         },
         {
           step: "Serve",
