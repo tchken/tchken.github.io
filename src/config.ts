@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/tchken",
   },
   aboutMe:
-    "I build large-scale recommendation and retrieval-and-ranking systems — semantic candidate generation with LLM embeddings, real-time ranking under business constraints, and the platform underneath it all. My work spans the full lifecycle: feature stores and training pipelines, distributed multi-GPU training, and low-latency online inference serving thousands of advertisers.\n\nAlongside the modeling, I lean heavily on causal inference — uplift measurement, holdout design, and heterogeneous treatment effects — because predictive accuracy alone rarely tells you what actually moved the business. I've built these systems across B2C and B2B environments, from Walmart's omni-channel personalization to GroundTruth's ad platform, with a research foundation in self-supervised learning from Berkeley AI Research.",
+    "I am a seasoned Machine Learning Engineer and Data Scientist specializing in large-scale recommendation systems, ranking, and deep learning architectures. My focus is on engineering machine learning workflows and deep learning pipelines, integrating causal inference to move beyond predictive accuracy, uncover business opportunities, and understand the mechanics behind complex user and system interactions.\n\nWith experience building high-stakes systems across B2C and B2B environments, I own the full machine learning lifecycle: from feature engineering and model architecture to high-throughput production deployment.\n\nMy focus is on building rigorous, high-performance machine learning systems with direct business impact.",
   skills: [
     "Recommendation Systems",
     "Retrieval & Ranking",
