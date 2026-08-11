@@ -306,7 +306,7 @@ export const siteConfig = {
     {
       company: "Coastal Management LLC",
       logo: "",
-      title: "Data Analytics Intern, Quantitative Research",
+      title: "Quant Research",
       dateRange: "Jan 2015 – Apr 2015",
       bullets: [
         "ML trading strategy.",
@@ -315,7 +315,7 @@ export const siteConfig = {
     {
       company: "Rizm Inc.",
       logo: "",
-      title: "Quant Trading, Quant Research",
+      title: "Data, Quant",
       dateRange: "Mar 2014 – Aug 2014",
       bullets: [
         "Trading platform. Quant data products.",
