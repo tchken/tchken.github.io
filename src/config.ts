@@ -282,7 +282,7 @@ export const siteConfig = {
       title: "Data Scientist, Manager",
       dateRange: "Jan 2020 – Feb 2021",
       bullets: [
-        "Deep learning personalization. Real-time feature pipelines.",
+        "Walmart+ Launch Team. Omni-channel Trip Missions. Customer Lifetime Value (CLV).",
       ],
     },
     {
