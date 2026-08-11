@@ -264,7 +264,7 @@ export const siteConfig = {
       title: "Senior Data Scientist, Machine Learning",
       dateRange: "May 2021 – Oct 2024",
       bullets: [
-        "Deep learning representation. Causal ML. Uplift measurement.",
+        "Deep learning segmentation. Causal ML. Uplift measurement.",
       ],
     },
     {
@@ -273,7 +273,7 @@ export const siteConfig = {
       title: "Graduate Researcher, Self-Supervised Learning",
       dateRange: "Jan 2021 – May 2021",
       bullets: [
-        "Self-supervised learning. Multi-modal representation.",
+        "Self-supervised learning. Multi-modal representation. Satellite imagery.",
       ],
     },
     {
