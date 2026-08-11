@@ -306,10 +306,10 @@ export const siteConfig = {
     {
       company: "Coastal Management LLC",
       logo: "",
-      title: "Quant Research",
+      title: "Quantitative Research",
       dateRange: "Jan 2015 – Apr 2015",
       bullets: [
-        "ML trading strategy.",
+        "Quant Trading. Data.",
       ],
     },
     {
