@@ -360,7 +360,7 @@ export const siteConfig = {
       school: "National Taiwan Normal University",
       logo: "/images/logos/ntnu.png",
       degree: "B.S. in Physics",
-      dateRange: "2013",
+      dateRange: "2011",
       achievements: [
         "Micro Optical Spectroscopic Laboratory",
         "Solid State Laser Physics Laboratory",
