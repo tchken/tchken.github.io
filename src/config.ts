@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Tsung-Chin Han | Ken",
   title: "RecSys · Retrieval & Ranking | LLM/GenAI | Deep Learning | Distributed ML",
   description: "Portfolio of Tsung-Chin Han (Ken) — Staff Data Scientist, Machine Learning at GroundTruth",
-  accentColor: "#2c5f8f",
+  accentColor: "#3498db",
   resumeUrl: "",
   social: {
     email: "tchan.ken1025@gmail.com",
