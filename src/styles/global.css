@@ -31,7 +31,7 @@ body {
   width: 50px;
   left: 0;
   margin-top: 5px;
-  background: #3498db;
+  background: #2c5f8f;
 }
 
 .background-alt {
@@ -58,23 +58,23 @@ body {
 }
 
 .btn-rounded-white:hover {
-  color: #3498db;
+  color: #2c5f8f;
   background: #fff;
   text-decoration: none;
 }
 
 .btn-rounded-blue {
   display: inline-block;
-  color: #3498db;
+  color: #2c5f8f;
   padding: 15px 25px;
-  border: 3px solid #3498db;
+  border: 3px solid #2c5f8f;
   border-radius: 30px;
   transition: 0.5s ease all;
   text-decoration: none;
 }
 
 .btn-rounded-blue:hover {
-  background: #3498db;
+  background: #2c5f8f;
   color: #fff;
   text-decoration: none;
 }
@@ -106,7 +106,7 @@ body {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #3498db;
+  background: #2c5f8f;
   z-index: 0;
 }
 
@@ -115,7 +115,7 @@ body {
   content: "";
   width: 3px;
   height: 40px;
-  background: linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
+  background: linear-gradient(to bottom, #2c5f8f, rgba(44,62,80,0));
   top: 100%;
   left: 303px;
 }
@@ -167,7 +167,7 @@ body {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #3498db;
+  background: #2c5f8f;
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -215,7 +215,7 @@ body {
 
 /* Contact section */
 #contact {
-  background: #3498db;
+  background: #2c5f8f;
 }
 
 #contact h2 {
@@ -257,5 +257,5 @@ footer {
 }
 
 .social a:hover {
-  color: #3498db;
+  color: #2c5f8f;
 }

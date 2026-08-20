@@ -13,7 +13,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
       </div>
       <div class="projects-list">
         {siteConfig.projects.map((project) => (
-          <div class="project shadow-large" style={`--accent: ${project.accentColor || '#3498db'};`}>
+          <div class="project shadow-large" style={`--accent: ${project.accentColor || '#2c5f8f'};`}>
             {project.image && (
               <div class="project-image">
                 <img src={project.image} alt={project.name} />
@@ -174,7 +174,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    border-left: 15px solid var(--accent, #3498db);
+    border-left: 5px solid var(--accent, #2c5f8f);
   }
 
   .project-image {
@@ -188,7 +188,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     width: 100%;
     height: 760px;
     overflow: hidden;
-    background: #0c2c20;
+    background: #1a2332;
   }
 
   .project-embed iframe {
@@ -202,8 +202,8 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgba(12, 44, 32, 0.85);
-    color: #d6f5e3;
+    background: rgba(26, 35, 50, 0.85);
+    color: #dbe4ef;
     font-size: 0.72em;
     font-weight: 600;
     letter-spacing: 0.03em;
@@ -237,7 +237,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     display: inline-block;
     font-size: 0.78em;
     font-weight: 600;
-    color: #3498db;
+    color: #2c5f8f;
     letter-spacing: 0.04em;
   }
 
@@ -290,7 +290,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
   .step-label {
     font-size: 0.82em;
     font-weight: 700;
-    color: #2980b9;
+    color: #1a3a5c;
     min-width: 90px;
     padding-top: 1px;
   }
@@ -330,7 +330,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 
   .results tr:last-child td {
     font-weight: 600;
-    color: #2980b9;
+    color: #1a3a5c;
     background: #f0f8ff;
   }
 
@@ -389,14 +389,14 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 
   .badge-tool {
     background: #e8f4fd;
-    color: #2980b9;
+    color: #1a3a5c;
     border: 1px solid #bee3f8;
   }
 
   .badge-method {
-    background: #f0f4ff;
-    color: #4a5568;
-    border: 1px solid #c3cfe2;
+    background: #f4f7fb;
+    color: #5a6673;
+    border: 1px solid #e0e6ed;
   }
 
   .project-links {
@@ -407,18 +407,18 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
   }
 
   .project-links a {
-    color: #3498db;
+    color: #2c5f8f;
     font-size: 0.88em;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid #3498db;
+    border: 1px solid #2c5f8f;
     padding: 6px 16px;
     border-radius: 3px;
     transition: 0.2s ease;
   }
 
   .project-links a:hover {
-    background: #3498db;
+    background: #2c5f8f;
     color: #fff;
   }
 
@@ -430,7 +430,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     font-size: 0.82em;
     font-weight: 600;
     color: #374054;
-    border-bottom: 2px dotted #3498db;
+    border-bottom: 2px dotted #2c5f8f;
     cursor: help;
     padding-bottom: 1px;
   }
@@ -459,7 +459,7 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
   .glossary-term .tooltip a {
     display: block;
     margin-top: 8px;
-    color: #5dade2;
+    color: #a0cfee;
     font-weight: 600;
     text-decoration: none;
     border-top: 1px solid rgba(255,255,255,0.1);

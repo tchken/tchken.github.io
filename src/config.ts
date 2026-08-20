@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Tsung-Chin Han | Ken",
   title: "RecSys · Retrieval & Ranking | LLM/GenAI | Deep Learning | Distributed ML",
   description: "Portfolio of Tsung-Chin Han (Ken) — Staff Data Scientist, Machine Learning at GroundTruth",
-  accentColor: "#3498db",
+  accentColor: "#2c5f8f",
   resumeUrl: "",
   social: {
     email: "tchan.ken1025@gmail.com",
@@ -39,7 +39,6 @@ export const siteConfig = {
   projects: [
     {
       name: "Learning Satellite Representations from Geo-Aligned Multi-Sensor Pairs",
-      accentColor: "#e67e22",
       category: "GenAI | Deep Learning Research | Computer Vision",
       year: "2021",
       tagline: "A self-supervised approach that treats co-registered Sentinel-1 (radar) and Sentinel-2 (optical) acquisitions as natural positive pairs — eliminating the need for hand-crafted augmentations",
@@ -119,7 +118,6 @@ export const siteConfig = {
     },
     {
       name: "Humor Response Generation: Machines Can Learn To Be Funny Too",
-      accentColor: "#34528a",
       category: "GenAI | Deep Learning Research | LLM | NLP",
       year: "2020",
       tagline: "Fine-tune GPT-2 (345M) to answer any question with a fitting punchline — then judge whether the joke actually lands, using a learned humor discriminator and 8 human raters.",
@@ -191,7 +189,6 @@ export const siteConfig = {
     },
     {
       name: "Sea Level Rise: An Interactive Coastal Flood Explorer",
-      accentColor: "#adb5bd",
       category: "Data Visualization | Geospatial | Interactive Storytelling",
       year: "2020",
       tagline: "Turn an abstract climate statistic into something you can feel — drag a slider and watch the water climb over real coastal cities, scenario by scenario.",
