@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/tchken",
   },
   aboutMe:
-    "I am a seasoned machine learning engineer and data scientist specializing in large-scale recommendation systems, ranking, and machine learning architectures. My focus is on end-to-end model development workflows and production ML pipelines, integrating causal inference to move beyond predictive accuracy and optimize for true business impact.\n\nWith experience building high-stakes systems across B2C and B2B environments, I own the full machine learning lifecycle: from feature engineering and model architecture to high-throughput production deployment.\n\nI specialize in architecting rigorous, high-performance ML systems engineered for scale, low latency, and long-term reliability.",
+    "I am an applied machine learning engineer and data scientist specializing in large-scale recommendation systems, ranking, and machine learning architectures. My focus is on end-to-end model development workflows and production ML pipelines, integrating causal inference to move beyond predictive accuracy and optimize for true business impact.\n\nWith experience building high-stakes systems across B2C and B2B environments, I own the full machine learning lifecycle: from feature engineering and model architecture to high-throughput production deployment.\n\nI specialize in architecting rigorous, high-performance ML models and systems engineered for scale, batch/low-latency inference, and long-term reliability.",
   skills: [
     "Recommendation Systems",
     "Retrieval & Ranking",
