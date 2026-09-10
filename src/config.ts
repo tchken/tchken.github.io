@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Tsung-Chin Han | Ken",
   title: "RecSys · Retrieval & Ranking | LLM/GenAI | Deep Learning | Distributed ML",
-  description: "Portfolio of Tsung-Chin Han (Ken) — Staff Data Scientist, Machine Learning at GroundTruth",
+  description: "Portfolio of Tsung-Chin Han (Ken) — Staff Machine Learning Engineer, Data Science at GroundTruth",
   accentColor: "#3498db",
   resumeUrl: "",
   social: {
@@ -261,7 +261,7 @@ export const siteConfig = {
           url: "https://www.linkedin.com/company/zerotoone-ai/",
         },
       ],
-      title: "Staff Data Scientist, Machine Learning",
+      title: "Staff Machine Learning Engineer, Data Science",
       dateRange: "Nov 2024 – Present",
       bullets: [
         "Technical lead. GenAI RecSys. Retrieval & ranking. ML platform.",
@@ -271,7 +271,7 @@ export const siteConfig = {
       company: "GroundTruth",
       url: "https://www.linkedin.com/company/groundtruthco",
       logo: "https://www.google.com/s2/favicons?domain=groundtruth.com&sz=128",
-      title: "Senior Data Scientist, Machine Learning",
+      title: "Senior Machine Learning Engineer, Data Science",
       dateRange: "May 2021 – Oct 2024",
       bullets: [
         "Deep learning segmentation. Causal ML. Uplift measurement.",
