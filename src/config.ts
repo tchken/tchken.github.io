@@ -264,7 +264,7 @@ export const siteConfig = {
       title: "Staff Machine Learning Engineer, Data Science",
       dateRange: "Nov 2024 – Present",
       bullets: [
-        "Technical lead. GenAI RecSys. Retrieval & ranking. ML platform.",
+        "Audience recommendation, retrieval and ranking, ML platform.",
       ],
     },
     {
@@ -291,7 +291,7 @@ export const siteConfig = {
       company: "Walmart eCommerce",
       url: "https://www.linkedin.com/company/walmart/",
       logo: "https://www.google.com/s2/favicons?domain=walmart.com&sz=128",
-      title: "Data Scientist, Manager",
+      title: "Data Scientist, Machine Learning Algorithms",
       dateRange: "Jan 2020 – Feb 2021",
       bullets: [
         "Walmart+ Launch Team. Omni-channel Trip Missions. Customer Lifetime Value (CLV).",
