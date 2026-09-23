@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Tsung-Chin Han | Ken",
-  title: "ML Engineering | RecSys · Retrieval & Ranking | Distributed ML | Data Science",
+  title: "ML Engineering | Recommendation Systems | Distributed ML | Data Science",
   description: "Portfolio of Tsung-Chin Han (Ken) — Staff Machine Learning Engineer, Data Science at GroundTruth",
   accentColor: "#3498db",
   resumeUrl: "",
