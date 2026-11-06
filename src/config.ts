@@ -288,33 +288,33 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Walmart eCommerce",
+      company: "Walmart",
       url: "https://www.linkedin.com/company/walmart/",
       logo: "https://www.google.com/s2/favicons?domain=walmart.com&sz=128",
-      title: "Data Scientist, Machine Learning Algorithms",
+      title: "Data Scientist, Machine Learning Algorithm",
       dateRange: "Jan 2020 – Feb 2021",
       bullets: [
-        "Walmart+ Launch Team. Omni-channel Trip Missions. Customer Lifetime Value (CLV).",
+        "Walmart+ Launch Team. Omni-channel Trip Missions.",
       ],
     },
     {
       company: "Deutsche Bank",
       url: "https://www.linkedin.com/company/deutsche-bank/",
       logo: "/images/logos/deutschebank.svg",
-      title: "Assistant Vice President, Modeling and Analytics",
+      title: "AVP, Quantitative Analyst",
       dateRange: "Jun 2017 – Oct 2019",
       bullets: [
-        "Macro hedging. Treasury.",
+        "Treasury.",
       ],
     },
     {
       company: "S&P Dow Jones Indices",
       url: "https://www.linkedin.com/showcase/s%26p-dow-jones-indices/",
       logo: "https://www.google.com/s2/favicons?domain=spglobal.com&sz=128",
-      title: "Analyst, Quantitative Modeling",
+      title: "Quantitative Analyst",
       dateRange: "May 2015 – Jun 2017",
       bullets: [
-        "Custom Index construction. Pricing pipelines.",
+        "Custom Indices.",
       ],
     },
     {
