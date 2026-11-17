@@ -4,3 +4,4 @@ dist/
 /.quarto/
 
 .claude/
+.DS_Store
