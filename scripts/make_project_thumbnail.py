@@ -3,7 +3,7 @@ Generates side-by-side S1/S2 geo-aligned pair thumbnail for the
 satellite imagery project card.
 
 Usage:
-    poetry run python scripts/make_project_thumbnail.py
+    uv run python scripts/make_project_thumbnail.py
 """
 
 import os
