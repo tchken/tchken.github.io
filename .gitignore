@@ -1,8 +1,26 @@
+# Dependencies
 node_modules/
-.astro/
+.venv/
+
+# Build output (built by GitHub Actions on every push)
+docs/
 dist/
+.astro/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets / local env
+.env
+.env.*
+
+# Editor / OS / tools
+.DS_Store
+.vscode/
+.idea/
+.claude/
 /.quarto/
 
-.claude/
-.DS_Store
-.venv/
+# Logs
+*.log
